@@ -7,7 +7,7 @@ public_folder: /img
 
 collections:
   - name: jargon
-    label: Jarhon
+    label: Jargon
     folder: jargon
     create: true
     fields:
@@ -15,4 +15,4 @@ collections:
       - { name: when-to-use, label: When To Use }
       - { name: sentence, label: Sentence }
       - { name: explanation, label: Explanation, widget: markdown }
-      - { name: resources, label: Resources, widget: Link }
+      - { name: resources, label: Resources, widget: list }
